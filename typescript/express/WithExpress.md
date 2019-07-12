@@ -8,7 +8,8 @@
         * ```tsc --init``` *This will generate tsconfig.json*
     4. Set-up TSLint configuration
         * ```tslint --init```  *This will generate tslint.json*
-    5. Set-up node scripts
+    5. Inside ```src``` create **app.ts** and **server.ts**
+    6. Set-up node scripts
         ### Copy to *package.json* scripts
         ```
         "scripts": {
@@ -28,9 +29,9 @@
             "watch-debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run serve-debug\""
         }
         ```
-    6. Checking *package.json***
+    7. Checking *package.json***
         * Make sure main is set like this, ```"main": "dist/server.js"```
-    7. Testing Set-up
+    8. Testing Set-up
         1. Make change to ```src/server/ts```
         2. Run ```npm run watch```
             * Check if ```dist``` folder is generated
