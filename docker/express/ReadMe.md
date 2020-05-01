@@ -45,3 +45,4 @@
 * Run the server on watch-debug mode *docker-compose -f "docker/express/dev.docker-compose.yml" up --build*
 * Server is running on [**localhost:3000/test**](http://localhost:3000/test)
 * Attach *VS Code Debugger* by choosing **Attach Docker Express**
+     *:point_right: Note: Enable **sourceMap: true** on tsconfig and make sure **launch.json for vscode** is pointing on the correct dir*
