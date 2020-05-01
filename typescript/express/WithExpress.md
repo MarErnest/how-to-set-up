@@ -3,7 +3,7 @@
 * **Setting Up the Project**
     1. On your directory run ```yarn init```
     2. Install the dependencies for ```Typescript```
-        * ```yarn add ts-node tslint typescript nodemon concurrently @types/node --save-dev```
+        * ```yarn add ts-node tslint typescript nodemon concurrently @types/node -D```
     3. Set-up Typescript configuration
         * ```tsc --init``` *This will generate tsconfig.json*
     4. Set-up TSLint configuration
@@ -38,8 +38,8 @@
 
 * **Setting Up ExpressJS**
     1. Install dependencies
-        * Install ```yarn add express body-parser --save```
-        * Install typings ```yarn add @types/express @types/body-parser --save-dev```
+        * Install ```yarn add express body-parser```
+        * Install typings ```yarn add @types/express @types/body-parser -D```
 
     2. Creating ```Application Class``` in **app.js**
         ```
@@ -94,7 +94,7 @@
             }
         })();
         ```
-    4. Now go to ```localhost:3000/test``` and 
+    4. Now go to ```localhost:3000/test``` and
        you sould see ``` {
             great: "work"
         }```

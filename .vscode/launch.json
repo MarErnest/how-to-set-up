@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach Docker Exress",
+            "protocol": "auto",
+            "sourceMaps": true,
+            "port": 9229,
+            "localRoot": "${workspaceRoot}/docker/express",
+            "remoteRoot": "/app",
+            "outFiles": [
+                "${workspaceFolder}/docker/express/dist/**/*.js"
+            ],
+          },
+    ]
+  }
